@@ -25,7 +25,7 @@ The schema used for this task is the Star Schema.
 One main fact table containing all the measures associated with each event - songplays, and 4-dimentional tables - songs, artists, users, and time. In each of the 4-dimentional 
 tables, a primary key can be referenced from the fact table. 
 
-<iframe width="100%" height="500px" style="box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); border-radius:15px;" allowtransparency="true" allowfullscreen="true" scrolling="no" title="Embedded DrawSQL IFrame" frameborder="0" src="https://drawsql.app/dow/diagrams/data-modeling-with-postgresql/embed"></iframe>
+[<img src="https://drawsql.app/dow/diagrams/data-modeling-with-postgresql"]
 
 The reasons to use a relational databse for this task are: 
 * the data types are structured 
