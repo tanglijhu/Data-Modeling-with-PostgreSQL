@@ -8,14 +8,8 @@
 - [Database Schema](#database-schema)
 - [ETL Pipeline Details](#etl-pipeline-details)
   * [song_data ETL](#song_data-etl)
-  ** [dataset source](#dataset-source)
-  ** [final PostgreSQL tables](#final-postgresql-tables)
   * [log_data ETL ](#log_data-etl)
-  ** [dataset source](#dataset-source)
-  ** [final PostgreSQL tables](#final-postgresql-tables)
  - [Usage Precedure](#usage-precedure) 
-
- 
 <!--te-->  
 
 ## Project Summary 
