@@ -1,5 +1,23 @@
 # Data-Modeling-with-PostgreSQL
 
+# Table of Contents
+<!--ts-->
+- [Project Summary](#project-summary)
+  * [Dataset Description](#dataset-description)
+  * [Python Script Description](#python-script-description)
+- [Database Schema](#database-schema)
+- [ETL Pipeline Details](#etl-pipeline-details)
+  * [song_data ETL](#song_data-etl)
+  ** [dataset source](#dataset-source)
+  ** [final PostgreSQL tables](#final-postgresql-tables)
+  * [log_data ETL ](#log_data-etl)
+  ** [dataset source](#dataset-source)
+  ** [final PostgreSQL tables](#final-postgresql-tables)
+ - [Usage Precedure](#usage-precedure) 
+
+ 
+<!--te-->  
+
 ## Project Summary 
 
 The objective of this project is to create a SQL analytics database for a fictional music streaming service compacy called Sparkify. Sparkify's analytics team is interested 
@@ -64,7 +82,7 @@ Each file in JSON format contains metadata about log information partitioned by 
 * users: user_id, first_name, last_name, gender, level (note: update level field is duplicated user information is delivered)
 * songplays: songplay_id, start_time, user_id, level, song_id, artist_id, session_id, location, user_agent
 
-## Usage Precedure: 
+## Usage Precedure 
 
 1) From terminal, run "create_tables.py" to drop the previous tables and set up the database / tables;
 2) Run "etl.py" to process and load data into the database / tables; 
