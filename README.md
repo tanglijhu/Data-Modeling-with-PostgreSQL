@@ -25,7 +25,7 @@ The schema used for this task is the Star Schema.
 One main fact table containing all the measures associated with each event - songplays, and 4-dimentional tables - songs, artists, users, and time. In each of the 4-dimentional 
 tables, a primary key can be referenced from the fact table. 
 
-![database schema diagram](img/database-schema.png)
+![database schema diagram](/img/database-schema.PNG)
 
 The reasons to use a relational databse for this task are: 
 * the data types are structured 
